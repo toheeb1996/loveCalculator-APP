@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  min-height: 100vh;
+  width: 100%;
+  /* background-image: linear-gradient(rgba(234, 238, 224, 0.8), rgba(219, 198, 198, 0.683)), url("./images/New-Free-Love-Images-Pics-Download.jpeg"); */
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url("https://source.unsplash.com/300x300/?love,red"); */
+  /* background-image: url("https://source.unsplash.com/300x300/?love,red"); */
+  /* background-position: center; */
+  /* background-size: cover; */
+
+}
+
+nav,
+.menu1,
+.menu2 {
+  background-color: aqua;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+nav li {
+  margin: 10px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.menu1 li {
+  border: 1.5px solid red;
+  padding: 3px;
+  border-radius: 10px;
+  background-color: white;
+}
+ 
+img {
+  width: 20px;
+}
+
+.menu2 li {
+  border: 1.5px solid red;
+  padding: 3px;
+  border-radius: 10px;
+  background-color: white
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url("https://source.unsplash.com/300x300/?love,red"); */
+  background-image: linear-gradient(rgba(42, 24, 202, 0.8), rgba(11, 175, 239, 0.683)), url("./images/New-Free-Love-Images-Pics-Download.jpeg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  width: 40rem;
+  height: 60vh;
+  margin-top: 50px;
+  margin-left: 17rem;
+  box-shadow: 10px 24px 22px 0px rgba(44, 2, 2, 0.75);
+  /* -webkit-box-shadow: 10px 24px 22px 0px rgba(204, 55, 55, 0.75);
+  -moz-box-shadow: 10px 24px 22px 0px rgba(204, 55, 55, 0.75); */
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  width: 80%;
+  height: 30vh;
+  background: linear-gradient(42deg, rgba(251, 63, 100, 1) 0%, rgb(106, 90, 252) 34%, rgba(80, 238, 252, 0.94) 68%, rgb(208, 130, 35) 100%);
+  border-radius: 10px;
+
+}
+
+.div1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.div1 input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  height: 20px;
+  width: 8rem;
+  text-align: center;
+  font-weight: 700;
+  color: red;
+  border-radius: 5px;
+  border: none;
+}
+
+.div2 {
+  display: flex;
+  justify-content: center;
+}
+
+.div2 button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10px;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: red;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.div2 button:hover {
+  opacity: 0.5;
+}
+
+
+.bigDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 80%;
+  height: 20vh;
+  /* background-color: rgba(28, 175, 97, 0.641); */
+  background-color: white;
+  border-radius: 10px;
+  /* box-shadow: -45px 79px 136px 46px rgba(35, 118, 229, 0.97);
+  -webkit-box-shadow: -45px 79px 136px 46px rgba(35, 118, 229, 0.97);
+  -moz-box-shadow: -45px 79px 136px 46px rgba(165, 176, 190, 0.97); */
+}
+
+.mini-div,
+.mini-div2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(214, 192, 192);
+  color: red;
+  border-radius: 10px;
+  margin: 10px;
+  width: 15rem;
+  height: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  color: red;
+  text-align: center;
+  /* background-color: blue; */
+
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  padding: 5px;
+  text-align: center;
+}
+
+footer div{
+  display: flex;
+  flex-direction: column;
+}
+
+.divA{
+  background-color: aqua;
+  /* padding: 10px; */
+}
+
+.divB p{
+  /* background-color: red; */
+  color: white;
+  padding: 5px;
+}
+
+@media(max-width: 700px) {
+  /* .header {
+    min-height:40vh;
+    width: 40%;
+  } */
+
+  .card{
+  border-radius: 5px;
+  width: 40rem;
+  height: 40vh;
+  margin-top: 10px;
+  margin-left: 5rem;
+  }
+}
+
+.reset{
+color:red; 
+background-color:white; 
+padding: 5px;
+border: none;
+border-radius: 20px;
+border: 1.5px solid green;
+font-weight: 800;
+}
